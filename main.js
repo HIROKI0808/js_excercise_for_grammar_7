@@ -83,7 +83,7 @@ console.log('先頭に値を追加した後', array5);
 //   - 「shift」を使って取り除いた値は変数「shiftedValue」に代入する
 //   - 値を配列の先頭から取り除く前と取り除いた後の結果をconsole.logで出力する (出力結果が異なることを確認する)
 //   - 変数「shiftedValue」をconsole.logで出力して、'タスク1' が表示されることを確認する
-array6 = ['タスク', 'タスク2', 'タスク3'];
+const array6 = ['タスク', 'タスク2', 'タスク3'];
 console.log('先頭から値を取り除く前', array6);
 const shiftedValue = array6.shift();
 console.log('先頭から値を取り除いた後', array6);
